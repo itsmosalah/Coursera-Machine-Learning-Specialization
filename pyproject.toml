@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "coursera-machine-learning-specialization"
+version = "0.1.0"
+description = ""
+authors = ["Mo Salah <mosalah3480@gmail.com>"]
+readme = "README.md"
+packages = [{include = "coursera_machine_learning_specialization"}]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+numpy = "^1.25.2"
+matplotlib = "^3.7.2"
+pandas = "^2.0.3"
+scikit-learn = "^1.3.0"
+
+
+[tool.poetry.group.dev.dependencies]
+jupyter = "^1.0.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
